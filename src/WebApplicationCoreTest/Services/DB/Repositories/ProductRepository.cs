@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Threading.Tasks;
 using WebApplicationCoreTest.Data.Entities;
-using Microsoft.Extensions.Configuration;
+using WebApplicationCoreTest.Helpers;
 
-namespace WebApplicationCoreTest.Services.DB
+
+namespace WebApplicationCoreTest.Services.DB.Repositories
 {
     public class ProductRepository
     {
